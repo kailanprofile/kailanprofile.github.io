@@ -465,6 +465,7 @@ section {
 
 .inner-world,
 .relationship,
+.habits,
 .bdsm-info,
 .trivia {
     margin-bottom: 60px;
@@ -472,6 +473,7 @@ section {
 
 .inner-world h3,
 .relationship h3,
+.habits h3,
 .bdsm-info h3,
 .trivia h3 {
     font-size: 32px;
@@ -518,6 +520,31 @@ section {
 .bdsm-info p,
 .trivia-item p {
     font-size: 18px;
+    line-height: 1.8;
+    color: var(--text-secondary);
+}
+
+.habits-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.habit-item {
+    background: var(--secondary-color);
+    padding: 30px;
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--accent-color);
+}
+
+.habit-item h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: var(--accent-color);
+}
+
+.habit-item p {
+    font-size: 16px;
     line-height: 1.8;
     color: var(--text-secondary);
 }
@@ -902,6 +929,8 @@ section {
     .layer,
     .trait,
     .relationship-phase,
+    .habit-item,
+    .trivia-item,
     .speech-example,
     .scene-content {
         padding: 20px;
